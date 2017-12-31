@@ -1,0 +1,2 @@
+# Ignore all mesh-specific textures for space conservation.
+**/assets/textures/specific
