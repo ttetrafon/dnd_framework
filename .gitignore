@@ -2,3 +2,5 @@
 **/assets/textures/specific
 # Ignore all photoshop files (not needed in the project).
 *.psd
+# Ignore the test scenes.
+**/assets/scenes
