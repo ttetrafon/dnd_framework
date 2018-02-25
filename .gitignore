@@ -1,6 +1,3 @@
-# Ignore all mesh-specific textures for space conservation.
-**/assets/textures/specific
-# Ignore all photoshop files (not needed in the project).
-*.psd
-# 
+# Ignore all helper files
 **/assets/---
+*.psd

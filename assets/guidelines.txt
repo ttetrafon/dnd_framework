@@ -1,0 +1,4 @@
+--------------------   SCALE   --------------------
+(Blender units / meters)
+- Objects: 1/1
+- Vehicles: 1/10
