@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     83949,       1939]
+NotebookDataLength[    103073,       2310]
 NotebookOptionsPosition[     64740,       1635]
-NotebookOutlinePosition[     65087,       1650]
-CellTagsIndexPosition[     65044,       1647]
+NotebookOutlinePosition[     84211,       2021]
+CellTagsIndexPosition[     84168,       2018]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1636,7 +1636,378 @@ Material", "Item",
 WindowSize->{775, 601},
 WindowMargins->{{Automatic, 270}, {Automatic, 28}},
 FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (September 10, 2017)",
-StyleDefinitions->"MyBook.nb"
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "MyBook.nb"]], 
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData[All], SpanMaxSize -> Infinity, FontFamily -> "Source Sans Pro"], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["BOOK TITLE"], CellFrame -> True, ShowGroupOpener -> True, 
+       GroupOpenerInsideFrame -> True, CellMargins -> {{10, 10}, {5, 10}}, 
+       StyleKeyMapping -> {"Tab" -> "SUBBOOK TITLE"}, 
+       CellGroupingRules -> {"TitleGrouping", 0}, PageBreakAbove -> True, 
+       PageBreakWithin -> False, PageBreakBelow -> False, CellFrameMargins -> 
+       15, CellFrameStyle -> Thickness[2.5], TextAlignment -> Center, 
+       TextJustification -> 0., 
+       CounterAssignments -> {{"Chapter", 0}, {"SubChapter", 0}, {
+         "SubSubChapte", 0}, {"Question", 0}, {"ItemNumbered", 0}}, 
+       MenuSortingValue -> 1, MenuCommandKey -> "1", FontSize -> 30, 
+       FontWeight -> "ExtraBold", Background -> 
+       RGBColor[0.72549, 0.690196, 0.690196]], 
+      Cell[
+       StyleData["BOOK TITLE", "Printout"], CellFrame -> True, 
+       CellMargins -> {{10, 10}, {5, 10}}, 
+       StyleKeyMapping -> {"Tab" -> "SUBBOOK TITLE"}, 
+       CellGroupingRules -> {"TitleGrouping", 0}, PageBreakAbove -> True, 
+       PageBreakWithin -> False, PageBreakBelow -> False, CellFrameMargins -> 
+       15, CellFrameStyle -> Thickness[2.5], TextAlignment -> Center, 
+       TextJustification -> 0., 
+       CounterAssignments -> {{"Chapter", 0}, {"SubChapter", 0}, {
+         "SubSubChapte", 0}, {"Question", 0}, {"ItemNumbered", 0}}, 
+       MenuSortingValue -> 1, MenuCommandKey -> "1", FontSize -> 30, 
+       FontWeight -> "ExtraBold", Background -> 
+       RGBColor[0.72549, 0.690196, 0.690196]]}, Closed]], 
+   Cell[
+    StyleData["SUBBOOK TITLE"], CellFrame -> True, ShowGroupOpener -> True, 
+    GroupOpenerInsideFrame -> True, CellMargins -> {{20, 20}, {10, 20}}, 
+    StyleKeyMapping -> {
+     "Backspace" -> "BOOK TITLE", "Tab" -> "SUBSUBBOOK TITLE"}, 
+    CellGroupingRules -> {"SectionGrouping", 5}, PageBreakWithin -> False, 
+    PageBreakBelow -> False, CellFrameMargins -> 10, CellFrameStyle -> 
+    Thickness[2], TextAlignment -> Center, TextJustification -> 0., 
+    CounterAssignments -> {{"Chapter", 0}, {"SubChapter", 0}, {
+      "SubSubChapte", 0}, {"Question", 0}, {"ItemNumbered", 0}}, 
+    MenuSortingValue -> 2, MenuCommandKey -> None, FontSize -> 26, FontWeight -> 
+    "ExtraBold", Background -> RGBColor[0.62549, 0.70196, 0.600196]], 
+   Cell[
+    StyleData["SUBSUBBOOK TITLE"], CellFrame -> True, ShowGroupOpener -> True,
+     GroupOpenerInsideFrame -> True, CellMargins -> {{25, 25}, {10, 20}}, 
+    StyleKeyMapping -> {"Backspace" -> "SUBBOOK TITLE"}, 
+    CellGroupingRules -> {"SectionGrouping", 8}, PageBreakWithin -> False, 
+    PageBreakBelow -> False, CellFrameMargins -> 10, CellFrameStyle -> 
+    Thickness[1.75], TextAlignment -> Center, TextJustification -> 0., 
+    CounterAssignments -> {{"Chapter", 0}, {"SubChapter", 0}, {
+      "SubSubChapte", 0}, {"Question", 0}, {"ItemNumbered", 0}}, 
+    MenuSortingValue -> 3, MenuCommandKey -> None, FontSize -> 22, FontWeight -> 
+    "ExtraBold", Background -> RGBColor[1., 0.72, 0.52]], 
+   Cell[
+    StyleData["ChapterNC"], ShowGroupOpener -> True, GroupOpenerInsideFrame -> 
+    True, CellMargins -> {{20, 0}, {6, 20}}, 
+    StyleKeyMapping -> {"Tab" -> "SubChapterNC"}, 
+    CellGroupingRules -> {"SectionGrouping", 10}, CellFrameMargins -> 5, 
+    CellChangeTimes -> {3.6407012833362303`*^9}, 
+    CounterAssignments -> {{"ItemNumbered", 0}, {"SubitemNumbered", 0}}, 
+    MenuSortingValue -> 10, MenuCommandKey -> "3", FontSize -> 24, FontWeight -> 
+    "Bold", FontColor -> GrayLevel[0.2]], 
+   Cell[
+    StyleData["SubChapterNC"], ShowGroupOpener -> True, 
+    GroupOpenerInsideFrame -> True, CellMargins -> {{30, 0}, {4, 16}}, 
+    StyleKeyMapping -> {
+     "Tab" -> "SubSubChapterNC", "Backspace" -> "ChapterNC"}, 
+    CellGroupingRules -> {"SectionGrouping", 20}, CellFrameMargins -> 5, 
+    CellChangeTimes -> {3.640701274346218*^9}, 
+    CounterAssignments -> {{"ItemNumbered", 0}}, MenuSortingValue -> 11, 
+    MenuCommandKey -> "None", FontSize -> 22, FontWeight -> "Bold", FontColor -> 
+    GrayLevel[0.35]], 
+   Cell[
+    StyleData["SubSubChapterNC"], ShowGroupOpener -> True, 
+    GroupOpenerInsideFrame -> True, CellMargins -> {{45, 0}, {4, 13}}, 
+    StyleKeyMapping -> {"Backspace" -> "SubChapterNC"}, 
+    CellGroupingRules -> {"SectionGrouping", 30}, CellFrameMargins -> 5, 
+    CounterIncrements -> "SubSubChapter", 
+    CounterAssignments -> {{"ItemNumbered", 0}}, MenuSortingValue -> 12, 
+    MenuCommandKey -> "None", FontSize -> 20, FontWeight -> "Bold", FontColor -> 
+    GrayLevel[0.5]], 
+   Cell[
+    StyleData["Titlos"], ShowGroupOpener -> True, GroupOpenerInsideFrame -> 
+    True, CellMargins -> {{50, 0}, {5, 10}}, 
+    StyleKeyMapping -> {"Tab" -> "Ypotitlos"}, 
+    CellGroupingRules -> {"SectionGrouping", 50}, 
+    CounterAssignments -> {{"ItemNumbered", 0}}, MenuSortingValue -> 35, 
+    MenuCommandKey -> "4", FontSize -> 18, FontWeight -> "Bold"], 
+   Cell[
+    StyleData["Ypotitlos"], ShowGroupOpener -> True, GroupOpenerInsideFrame -> 
+    True, CellMargins -> {{60, 0}, {5, 8}}, 
+    StyleKeyMapping -> {"Backspace" -> "Titlos"}, 
+    CellGroupingRules -> {"SectionGrouping", 60}, 
+    CounterAssignments -> {{"ItemNumbered", 0}}, MenuSortingValue -> 40, 
+    MenuCommandKey -> "None", FontSize -> 16, FontWeight -> "Bold", FontSlant -> 
+    "Italic"], 
+   Cell[
+    StyleData["Text"], CellMargins -> {{65, 0}, {3, 3}}, 
+    StyleKeyMapping -> {"Backspace" -> "TextSection", "Tab" -> "TextTopLine"},
+     TextJustification -> 1., LineSpacing -> {1, 1, 1}, MenuSortingValue -> 
+    1100, MenuCommandKey -> "k", FontSize -> 14], 
+   Cell[
+    StyleData["TextTopLine"], CellFrame -> {{0, 0}, {0, 0.05}}, 
+    CellMargins -> {{65, 0}, {3, 3}}, 
+    StyleKeyMapping -> {"Backspace" -> "Text"}, TextJustification -> 1., 
+    LineSpacing -> {1, 1, 1}, MenuSortingValue -> 1105, FontSize -> 14], 
+   Cell[
+    StyleData["TextSection"], CellFrame -> {{0, 0}, {3, 3}}, 
+    CellMargins -> {{65, 0}, {2, 10}}, StyleKeyMapping -> {"Tab" -> "Text"}, 
+    TextJustification -> 1., LineSpacing -> {1.1, 1.1, 2.}, MenuSortingValue -> 
+    1095, MenuCommandKey -> None, FontSize -> 12, FontWeight -> Bold, 
+    FontSlant -> Italic, FontVariations -> {"Underline" -> True}], 
+   Cell[
+    StyleData["TextGold"], CellMargins -> {{65, 0}, {3, 3}}, 
+    TextJustification -> 1., LineSpacing -> {1, 1, 1}, MenuSortingValue -> 
+    1101, MenuCommandKey -> "g", FontSize -> 14, FontColor -> 
+    RGBColor[0.917647, 0.458824, 0]], 
+   Cell[
+    StyleData["TextRed"], CellMargins -> {{65, 0}, {3, 3}}, 
+    StyleKeyMapping -> {"Backspace" -> "TextSection"}, TextJustification -> 
+    1., LineSpacing -> {1, 1, 1}, MenuSortingValue -> 1101, MenuCommandKey -> 
+    "f", FontSize -> 14, FontColor -> RGBColor[0.8, 0, 0]], 
+   Cell[
+    StyleData["note"], CellMargins -> {{75, 75}, {5, 5}}, TextAlignment -> 
+    Center, TextJustification -> 1., MenuSortingValue -> 1500, MenuCommandKey -> 
+    "n", FontSize -> 13, FontSlant -> "Italic"], 
+   Cell[
+    StyleData["comment"], CellMargins -> {{75, 75}, {5, 5}}, TextAlignment -> 
+    Center, TextJustification -> 1., MenuSortingValue -> 1510, MenuCommandKey -> 
+    "c", FontSize -> 13, FontSlant -> "Italic", FontColor -> 
+    RGBColor[0.909804, 0, 0.0196078], Background -> 
+    RGBColor[0.980392, 0.968627, 0.552941]], 
+   Cell[
+    StyleData["time_travel"], CellMargins -> {{75, 75}, {5, 5}}, 
+    TextAlignment -> Center, TextJustification -> 1., MenuSortingValue -> 
+    1525, MenuCommandKey -> "t", FontSize -> 14, FontColor -> 
+    RGBColor[1, 1, 1], Background -> RGBColor[1, 0, 0]], 
+   Cell[
+    StyleData["dreamscape"], CellMargins -> {{75, 75}, {5, 5}}, TextAlignment -> 
+    Center, TextJustification -> 1., MenuSortingValue -> 1525, MenuCommandKey -> 
+    "d", FontSize -> 14, FontColor -> RGBColor[0, 0, 1], Background -> 
+    RGBColor[0, 1, 0]], 
+   Cell[
+    StyleData["ItemNumbered"], CellMargins -> {{65, 10}, {1, 1}}, 
+    TextJustification -> 1., 
+    CounterAssignments -> {{"SubitemNumbered", 0}, {"SubsubitemNumbered", 0}},
+     MenuSortingValue -> 1201, MenuCommandKey -> "j", FontSize -> 14], 
+   Cell[
+    StyleData["SubitemNumbered"], CellDingbat -> Cell[
+      TextData[{
+        CounterBox["SubitemNumbered"], "."}], FontWeight -> "Bold"], 
+    CellMargins -> {{75, 10}, {1, 1}}, TextJustification -> 1., 
+    MenuSortingValue -> None, MenuCommandKey -> None, FontSize -> 14, 
+    CounterBoxOptions -> {CounterFunction :> (Part[
+        CharacterRange["\[Alpha]", "\[Omega]"], #]& )}], 
+   Cell[
+    StyleData["SubsubitemNumbered"], CellDingbat -> Cell[
+      TextData[{
+        CounterBox["SubsubitemNumbered"], "."}], FontWeight -> "Bold"], 
+    CellMargins -> {{85, 10}, {1, 1}}, TextJustification -> 1., 
+    MenuSortingValue -> None, MenuCommandKey -> None, FontSize -> 14, 
+    CounterBoxOptions -> {CounterFunction :> RomanNumeral}], 
+   Cell[
+    StyleData["Item"], CellDingbat -> "\[FilledSmallCircle]", 
+    CellMargins -> {{65, 10}, {1, 1}}, TextJustification -> 1., 
+    MenuSortingValue -> 1200, MenuCommandKey -> "l"], 
+   Cell[
+    StyleData["Subitem"], CellDingbat -> "\[FilledSmallSquare]", 
+    CellMargins -> {{75, 10}, {1, 1}}, 
+    StyleKeyMapping -> {"Tab" -> "Subsubitem", "Backspace" -> "Item"}, 
+    TextJustification -> 1., MenuSortingValue -> 1210, MenuCommandKey -> None,
+     FontSize -> 14], 
+   Cell[
+    StyleData["Subsubitem"], CellDingbat -> "\[FivePointedStar]", 
+    CellMargins -> {{85, 10}, {1, 1}}, 
+    StyleKeyMapping -> {"Backspace" -> "Subitem", "Tab" -> "Subsubsubitem"}, 
+    TextJustification -> 1., MenuSortingValue -> 1220, MenuCommandKey -> None,
+     FontSize -> 14], 
+   Cell[
+    StyleData["Subsubsubitem"], CellDingbat -> "\[FilledUpTriangle]", 
+    CellMargins -> {{95, 10}, {1, 1}}, ReturnCreatesNewCell -> True, 
+    StyleKeyMapping -> {"Backspace" -> "Subsubitem"}, 
+    CellGroupingRules -> {"GroupTogetherNestedGrouping", 15300}, 
+    TextJustification -> 1., MenuSortingValue -> 1230, MenuCommandKey -> None,
+     FontSize -> 14], 
+   Cell[
+    StyleData["ItemParagraph"], CellMargins -> {{65, 10}, {0, 1}}, 
+    ReturnCreatesNewCell -> False, TextJustification -> 1., MenuSortingValue -> 
+    1202, MenuCommandKey -> "p", FontColor -> GrayLevel[0]], 
+   Cell[
+    StyleData["SubitemParagraph"], CellMargins -> {{75, 10}, {0, 1}}, 
+    ReturnCreatesNewCell -> False, 
+    StyleKeyMapping -> {
+     "Tab" -> "SubsubitemParagraph", "Backspace" -> "ItemParagraph"}, 
+    TextJustification -> 1., MenuSortingValue -> 1212, MenuCommandKey -> None,
+     FontSize -> 14, FontColor -> GrayLevel[0]], 
+   Cell[
+    StyleData["SubsubitemParagraph"], CellMargins -> {{85, 10}, {0, 1}}, 
+    ReturnCreatesNewCell -> False, 
+    StyleKeyMapping -> {
+     "Backspace" -> "SubitemParagraph", "Tab" -> "SubsubsubitemParagraph"}, 
+    TextJustification -> 1., MenuSortingValue -> 1222, MenuCommandKey -> None,
+     FontSize -> 14, FontColor -> GrayLevel[0]], 
+   Cell[
+    StyleData["SubsubsubitemParagraph"], CellMargins -> {{95, 10}, {0, 1}}, 
+    ReturnCreatesNewCell -> False, 
+    StyleKeyMapping -> {"Backspace" -> "SubsubitemParagraph"}, 
+    CellGroupingRules -> {"GroupTogetherNestedGrouping", 15300}, 
+    TextJustification -> 1., MenuSortingValue -> 1232, MenuCommandKey -> None,
+     FontSize -> 14, FontColor -> GrayLevel[0]], 
+   Cell[
+    StyleData["Image"], CellMargins -> {{Inherited, Inherited}, {0, 5}}, 
+    StyleKeyMapping -> {"Tab" -> "Image Caption"}, TextAlignment -> Center, 
+    CounterIncrements -> "Image", MenuSortingValue -> 1300, MenuCommandKey -> 
+    "i"], 
+   Cell[
+    StyleData["Image Caption"], 
+    CellMargins -> {{Inherited, Inherited}, {5, 2.5}}, 
+    StyleKeyMapping -> {"Backspace" -> "image"}, TextAlignment -> Center, 
+    MenuSortingValue -> 1320, FontSize -> 13, FontSlant -> "Italic", 
+    FontColor -> GrayLevel[0.117647]], 
+   Cell[
+    StyleData["Equation"], CellMargins -> {{100, 100}, {6, 6}}, 
+    StyleKeyMapping -> {"Tab" -> "Equation - numbered"}, TextAlignment -> 
+    Center, TextJustification -> 1., MenuSortingValue -> 1350, MenuCommandKey -> 
+    "e", FontSize -> 14], 
+   Cell[
+    StyleData["EquationNumbered"], CellMargins -> {{100, 7}, {6, 6}}, 
+    StyleKeyMapping -> {"BackSpace" -> "Equation"}, CellFrameLabels -> {{None, 
+       Cell[
+        TextData[{
+         "\[CapitalEpsilon]\[Xi]\:03af\[Sigma]\[Omega]\[Sigma]\[Eta] ", 
+          CounterBox["Chapter - numbered"], ".", 
+          CounterBox["EquationNumbered"]}], FontWeight -> "Bold", FontSlant -> 
+        "Italic"]}, {None, None}}, TextAlignment -> Center, TextJustification -> 
+    1., CounterIncrements -> "EquationNumbered", MenuSortingValue -> 1355, 
+    MenuCommandKey -> None, FontSize -> 14], 
+   Cell[
+    StyleData["Code"], CellMargins -> {{50, 50}, {8, 8}}, Evaluatable -> 
+    False, StripStyleOnPaste -> True, InitializationCell -> False, 
+    TextAlignment -> Left, TextJustification -> 1., Hyphenation -> False, 
+    AutoQuoteCharacters -> {}, PasteAutoQuoteCharacters -> {}, 
+    LanguageCategory -> "Formula", MenuSortingValue -> 1350, MenuCommandKey -> 
+    "z", FontSize -> 14, Background -> GrayLevel[0.85]], 
+   Cell[
+    StyleData["Question"], CellDingbat -> Cell[
+      TextData[{"E ", 
+        CounterBox["Chapter"], ".", 
+        CounterBox["Question"], ":"}], FontWeight -> "Bold", FontSlant -> 
+      "Italic"], CellMargins -> {{70, 0}, {3, 5}}, TextJustification -> 1., 
+    CounterIncrements -> "Question", MenuSortingValue -> 700, MenuCommandKey -> 
+    "q", FontSize -> 14], 
+   Cell[
+    StyleData["Problem"], CellDingbat -> Cell[
+      TextData[{"A ", 
+        CounterBox["Chapter"], ".", 
+        CounterBox["Problem"], ":"}], FontWeight -> "Bold", FontSlant -> 
+      "Italic"], CellMargins -> {{72, 0}, {3, 5}}, TextJustification -> 1., 
+    CounterIncrements -> "Problem", 
+    CounterAssignments -> {{"ItemNumbered", 0}}, MenuSortingValue -> 710, 
+    MenuCommandKey -> "a", FontSize -> 14], 
+   Cell[
+    StyleData["result"], CellMargins -> {{200, Inherited}, {5, 2.5}}, 
+    TextAlignment -> Right, MenuSortingValue -> 750, MenuCommandKey -> "r", 
+    FontSize -> 13, FontSlant -> "Italic", FontColor -> GrayLevel[0.117647]], 
+   Cell[
+    StyleData["Input"], MenuSortingValue -> 2000, MenuCommandKey -> "9", 
+    FontSize -> 13], 
+   Cell[
+    StyleData["Output"], TextAlignment -> Center, MenuSortingValue -> 2050, 
+    FontSize -> 13], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Title"], CellMargins -> {{12, 12}, {10, 50}}, 
+       StyleKeyMapping -> {"Tab" -> "Subtitle"}, PageBreakBelow -> False, 
+       TextAlignment -> Center, LineSpacing -> {1, 2}, MenuSortingValue -> 
+       2500, MenuCommandKey -> None, FontSize -> 32, FontWeight -> "Bold", 
+       FontColor -> RGBColor[0, 0, 0]], 
+      Cell[
+       StyleData["Title", "Printout"], CellMargins -> {{12, 12}, {10, 180}}, 
+       PageBreakBelow -> False, TextAlignment -> Center, 
+       LineSpacing -> {1, 2}, MenuSortingValue -> 2500, MenuCommandKey -> 
+       None, FontSize -> 32, FontWeight -> "Bold", FontColor -> 
+       RGBColor[0, 0, 0]]}, Open]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Subtitle"], CellMargins -> {{12, 12}, {20, 15}}, 
+       StyleKeyMapping -> {"Backspace" -> "Title"}, PageBreakBelow -> False, 
+       TextAlignment -> Center, LineSpacing -> {1, 2}, MenuSortingValue -> 
+       2505, MenuCommandKey -> None, FontSize -> 26, FontWeight -> "Bold", 
+       FontColor -> RGBColor[0, 0, 0]], 
+      Cell[
+       StyleData["Subtitle", "Printout"], CellMargins -> {{12, 12}, {50, 15}},
+        StyleKeyMapping -> {"Backspace" -> "Title"}, PageBreakBelow -> False, 
+       TextAlignment -> Center, LineSpacing -> {1, 2}, MenuSortingValue -> 
+       2505, MenuCommandKey -> None, FontSize -> 26, FontWeight -> "Bold", 
+       FontColor -> RGBColor[0, 0, 0]]}, Open]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Author"], CellMargins -> {{54, 54}, {3, 20}}, TextAlignment -> 
+       Center, ParagraphSpacing -> {0, 0}, MenuSortingValue -> 2600, FontSize -> 
+       14, FontWeight -> "Bold", FontColor -> RGBColor[0, 0, 0.500008]], 
+      Cell[
+       StyleData["Author", "Printout"], CellMargins -> {{54, 54}, {3, 80}}, 
+       TextAlignment -> Center, ParagraphSpacing -> {0, 0}, MenuSortingValue -> 
+       2600, FontSize -> 14, FontWeight -> "Bold", FontColor -> 
+       RGBColor[0, 0, 0.500008]]}, Closed]], 
+   Cell[
+    StyleData["Author Info"], CellMargins -> {{54, 54}, {3, 0}}, 
+    TextAlignment -> Center, ParagraphSpacing -> {0, 0}, MenuSortingValue -> 
+    2605, FontSize -> 13, FontWeight -> "Bold", FontColor -> 
+    RGBColor[0, 0, 0.500008]], 
+   Cell[
+    StyleData["Institution"], CellMargins -> {{54, 54}, {10, 0}}, 
+    TextAlignment -> Center, CounterIncrements -> "Institution", 
+    MenuSortingValue -> 2610, FontColor -> RGBColor[0, 0, 0.500008]], 
+   Cell["", "Text", CellFrame -> {{0, 0}, {0, 5}}, 
+    CellChangeTimes -> {{3.6406975592193623`*^9, 3.6406975603143635`*^9}}, 
+    FontSize -> 1], 
+   Cell[
+    StyleData["Subsubtitle"], MenuSortingValue -> None, MenuCommandKey -> 
+    None], 
+   Cell[
+    StyleData["Section"], MenuSortingValue -> None, MenuCommandKey -> None], 
+   Cell[
+    StyleData["Subsection"], MenuSortingValue -> None, MenuCommandKey -> 
+    None], 
+   Cell[
+    StyleData["Subsubsection"], MenuSortingValue -> None, MenuCommandKey -> 
+    None], 
+   Cell[
+    StyleData["InlineFormula"], MenuSortingValue -> None, MenuCommandKey -> 
+    None], 
+   Cell[
+    StyleData["DisplayFormula"], 
+    CellChangeTimes -> {3.6087778716139154`*^9, 3.6115877881497126`*^9}, 
+    MenuSortingValue -> None, MenuCommandKey -> None], 
+   Cell[
+    StyleData["DisplayFormulaNumbered"], CellFrameLabels -> {{None, 
+       Cell[
+        TextData[{"(eq", 
+          CounterBox["DisplayFormulaNumbered"], ")"}], 
+        "DisplayFormulaEquationNumber"]}, {None, None}}, MenuSortingValue -> 
+    None, MenuCommandKey -> None], 
+   Cell[
+    StyleData["Program"], MenuSortingValue -> None, MenuCommandKey -> None], 
+   Cell[
+    StyleData["table"], 
+    CellMargins -> {{Inherited, Inherited}, {Inherited, Inherited}}, 
+    TextAlignment -> Center, MenuSortingValue -> None, MenuCommandKey -> None,
+     FontSize -> 14], 
+   Cell[
+    StyleData["Subchapter"], MenuSortingValue -> None, MenuCommandKey -> 
+    None], 
+   Cell[
+    StyleData["Program"], CellFrame -> {{0, 0}, {0.5, 0.5}}, 
+    CellMargins -> {{66, 10}, {8, 8}}, StripStyleOnPaste -> True, Hyphenation -> 
+    False, AutoQuoteCharacters -> {}, PasteAutoQuoteCharacters -> {}, 
+    LanguageCategory -> "Formula", ScriptLevel -> 1, MenuSortingValue -> None,
+     MenuCommandKey -> None, FontFamily -> "Courier"]}, 
+  WindowSize -> {775, 561}, WindowMargins -> {{0, Automatic}, {Automatic, 0}},
+   Visible -> False, FrontEndVersion -> 
+  "11.2 for Microsoft Windows (64-bit) (September 10, 2017)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
 ]
 (* End of Notebook Content *)
 
