@@ -1,5 +1,5 @@
 # Ignore all helper files
-**/assets/---
+**/---
 *.psd
 *.blend1
 *.blend2
