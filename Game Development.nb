@@ -16198,7 +16198,7 @@ Cell[TextData[{
 }, Open  ]]
 }, Open  ]]
 }, Closed]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -19212,7 +19212,7 @@ Cell[868506, 15493, 437, 8, 39, "Subitem",ExpressionUUID->"d2ea7deb-8be1-4c91-88
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[869004, 15508, 152, 3, 38, "Titlos",ExpressionUUID->"a2fbc979-bba6-4a15-a744-b4789bd0c275"],
+Cell[869004, 15508, 152, 3, 32, "Titlos",ExpressionUUID->"a2fbc979-bba6-4a15-a744-b4789bd0c275"],
 Cell[CellGroupData[{
 Cell[869181, 15515, 328, 9, 21, "Item",ExpressionUUID->"79f7c401-f6ae-4fcd-9276-fc6f54b5086c"],
 Cell[869512, 15526, 333, 5, 21, "Item",ExpressionUUID->"f91bd720-1b8a-413d-858b-40d1fc561310"],
@@ -19320,9 +19320,9 @@ Cell[894488, 16185, 452, 10, 20, "Subsubitem",ExpressionUUID->"cf390a55-aaaf-418
 }, Open  ]]
 }, Open  ]]
 }, Closed]]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[895025, 16204, 210, 4, 69, "SUBBOOK TITLE",ExpressionUUID->"2dde64cc-5be9-46ae-a494-42c6b441c870"],
+Cell[895025, 16204, 210, 4, 85, "SUBBOOK TITLE",ExpressionUUID->"2dde64cc-5be9-46ae-a494-42c6b441c870"],
 Cell[CellGroupData[{
 Cell[895260, 16212, 334, 6, 57, "ChapterNC",ExpressionUUID->"f47b0976-76d5-4a22-92c9-c9cbec05fe3c"],
 Cell[CellGroupData[{
